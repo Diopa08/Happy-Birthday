@@ -10,7 +10,7 @@
 	
 	<meta name="robots" content="index, follow" />
 	
-    
+
     <meta property="og:type" content="E-Greeting" />
     <meta property="og:image" content="favicon.ico" />
     <meta property="og:description" content="Wish you a very Happy Birthday">
@@ -34,6 +34,27 @@
         <source src="hbd.mp3"></source>
 	   Your browser isn't invited for super fun audio time.
     </audio>
+	<div class="balloons text-center" id="b1">
+    	<h2 style="color:#F2B300;">H</h2>
+    </div>
+    <div class="balloons text-center" id="b2">
+    	<h2 style="color:#0719D4;">B</h2>
+    </div>
+	<div class="balloons text-center" id="b3">
+    	<h2 style="color:#D14D39;">D</h2>
+    </div>
+	<div class="balloons text-center" id="b4">
+    	<h2 style="color:#8FAD00;">X</h2>
+    </div>
+	<div class="balloons text-center" id="b5">
+    	<h2 style="color:#8377E4;">O</h2>
+    </div>
+    <div class="balloons text-center" id="b6">
+    	<h2 style="color:#99C96A;">L</h2>
+    </div>
+    <div class="balloons text-center" id="b7">
+    	<h2 style="color:#20CFB4;">A</h2>
+    </div>
 	
     <img src="Balloon-Border.png" width="100%" class="balloon-border">
  
@@ -61,9 +82,10 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-md-12 text-center">
+			<div class="col-md-12 mb-0 text-center">
 				<img src="banner.png" class="bannar">
-				<h1 class="bannar bold-font-size" style="color: white;">Tonton Pascal</h1>
+				<h1 class="bannar">Tonton Pascal</h1>
+				
 			</div>
 		</div>
 		<div class="row cake-cover">
@@ -81,6 +103,8 @@
 				</div>
 			</div>
 		</div>
+
+		
 		<div class="row message">
 			<div class="col-md-12">
 				<p>Dans le doux passage du temps, </p>
@@ -124,22 +148,34 @@
     <p>Un homme tel que vous,</p> <p> si précieux et si cher, mérite tout le bonheur,
 	</p>
     <p>Que cette journée vous apporte joie et lumière,</p> <p> comme un précieux nectar.</p>
-	<p>Avec tout notre amour,</p> <p> Frejus et Persévérance.</p>
-	<p><img src="photo.jpg" alt=""></p>
+	<p>Avec tout notre amour,</p> <p> Fréjus et Persévérance.</p>
+
     
 			</div>
 		</div>
 		<div class="navbar navbar-fixed-bottom">
 			<div class="row">
 				<div class="col-md-6 text-center col-md-offset-3">
-					<button class="btn btn-primary" id="turn_on">Lumières</button>
-					<button class="btn btn-primary" id="play"> Musique</button>
-					<button class="btn btn-primary" id="bannar_coming">Décoration</button>
-					<button class="btn btn-primary" id="balloons_flying">Ballons</button>
-					<button class="btn btn-primary" id="cake_fadein">Le plus delicieux des gateaux</button>
-					<button class="btn btn-primary" id="light_candle"> Allumer la bougie</button>
-					<button class="btn btn-primary" id="wish_message">Happy Birthday</button>
-					<button class="btn btn-primary" id="story">Un mesage pour vous</button>
+					<div class="fx-block">
+						<div class="toggle" id="turn_on">
+							<div>
+								<input type="checkbox" id="toggles">
+								<div data-unchecked="On" data-checked="Off">
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					
+					
+					<button class="" id="play"> Musique</button>
+					<button class="" id="bannar_coming">Décoration</button>
+					<button class="" id="balloons_flying">Ballons</button>
+					<button class="" id="cake_fadein">Le plus delicieux des gateaux</button>
+					<button class="" id="light_candle"> Allumer la bougie</button>
+					<button class="" id="wish_message">Happy Birthday</button>
+					<button class="" id="story">Un mesage pour vous</button>
+					<button id="replay" class=" flip-card hidden">Revoir</button>
 					<!-- <button class="btn btn-primary" id="cake_cut">Lrt's Cut the Cake</button> -->
 				</div>
 			</div>
